@@ -1,10 +1,22 @@
 .header {
-    background-color: black;
+    background-color: #565656;
     background-repeat: no-repeat;
+    font-family: lato;
 }
 .logo {
-    background-color: solid black;
+    background-color: solid #565656;
 }
 .heroImage {
-    align-content: center;
+    margin-left: auto;
+    background-color:#565656;
+}
+.fanClub {
+    background-color: #565656;
+    margin-left: auto;
+    font-family: lato;
+}
+.footer {
+    background-color: black;
+    color: white;
+    font-family: lato;
 }
