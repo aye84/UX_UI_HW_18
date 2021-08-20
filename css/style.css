@@ -10,10 +10,16 @@
     margin-left: auto;
     background-color:#565656;
 }
-.fanClub {
+#fanClub {
     background-color: #565656;
-    margin-left: auto;
     font-family: lato;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+    grid-template-areas: 
+    "space fanImage space"
+    "fanTitle"
+    "fanText";
 }
 .footer {
     background-color: black;
