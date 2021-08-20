@@ -2,24 +2,70 @@
     background-color: #565656;
     background-repeat: no-repeat;
     font-family: lato;
+    
+}
+.headerRight {
+    display: flex; 
+    justify-content: center;
+    padding: 20px;
+    column-count: 6;
 }
 .logo {
     background-color: solid #565656;
+    display: flex;
+    justify-content: left;
+}
+.about {
+    padding: 10px;
+    font-size: large;
+    border: solid black;
+    background-color: white;
+}
+.shop {
+    padding: 10px;
+    font-size: large;
+    border: solid black;
+    background-color: white;
+}
+.fanClub {
+    padding: 10px;
+    font-size: large;
+    border: solid black;
+    background-color: white;
+}
+.news {
+    padding: 10px;
+    font-size: large;
+    border: solid black;
+    background-color: white;
+}
+.gallery {
+    padding: 10px;
+    font-size: large;
+    border: solid black;
+    background-color: white;
 }
 .heroImage {
     margin-left: auto;
     background-color:#565656;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
 }
 #fanClub {
     background-color: #565656;
     font-family: lato;
-    display: grid;
-    grid-template-rows: auto;
-    grid-template-columns: auto;
-    grid-template-areas: 
-    "space fanImage space"
-    "fanTitle"
-    "fanText";
+}
+#fanImage {
+    display: flex;
+    justify-content: center;
+}
+#fanTitle {
+    text-align: center;
+}
+#fanText {
+    text-align: center;
 }
 .footer {
     background-color: black;
